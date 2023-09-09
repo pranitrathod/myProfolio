@@ -24,19 +24,21 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Pranit hold a degree in Computer Science and Engineering,equipping with a solid foundation in the world of tech,he have also done Diploma in Computer engineering and was topper for 2 years straight";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
+  "Web Development",
   "User experience",
-  "Inclusive design",
+  "Back end",
   "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Cloud Enthusiatic",
+  "DevOps Practices",
+  "React.js",
+  "Leadership",
 ];
 
 /**
@@ -45,8 +47,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
-
+  " Pranit is not just passionate about technology; he is enthralled by its rapid evolution in this era.From Full stack development to Blockchain, he is committed to staying at the forefront of innovation.";
 const About = () => {
   return (
     <section className="padding" id="about">
@@ -60,7 +61,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>About Pranit</h2>
         <p className="large">{description}</p>
         <hr />
         <ul
